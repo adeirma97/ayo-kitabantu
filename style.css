@@ -55,5 +55,22 @@ footer {
   font-size: 0.9em;
 }
 
+.progress-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #27ae60;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+
+
 <link rel="stylesheet" href="style.css">
 
